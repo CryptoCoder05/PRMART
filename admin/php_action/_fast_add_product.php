@@ -19,9 +19,13 @@ if(!is_logged_in()){
  }
 
  //barcode scan form--->
+   $barcode = null;
    $productQ = $db->query("SELECT * FROM add_pro_bar WHERE user_id = $user_id");
    $product_res = mysqli_fetch_assoc($productQ);
    $bar_count = mysqli_num_rows($productQ);
-   $barcode = $product_res['barcode'];
+  if($product_res){
+    $barcode = $product_res['barcode'];
+   }
+   
 
  ?>
