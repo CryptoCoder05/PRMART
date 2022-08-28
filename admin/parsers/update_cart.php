@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/seller/core/init.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/prmart/core/init.php';
 $mode = sanitize($_POST['mode']);
 $edit_size = sanitize($_POST['edit_size']);
 $edit_id = sanitize($_POST['edit_id']);

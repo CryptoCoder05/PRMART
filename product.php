@@ -7,7 +7,7 @@ $featured = $db->query($sql);
 <?php include_once 'leftbar.php'; ?>
 <!--<div class="col-md-2"></div>-->
 <!--++++++++++++++++-Products------------------>
-<section>
+<section style="margin-top:60px;">
   <div class="col-md-10">
     <div class="row">
       <h2 class="text-center">Featured Product</h2>

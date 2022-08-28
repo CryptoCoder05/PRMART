@@ -1,5 +1,5 @@
 <?php
- require_once $_SERVER['DOCUMENT_ROOT'].'/seller/core/init.php';
+ require_once $_SERVER['DOCUMENT_ROOT'].'/prmart/core/init.php';
  $parentID = (int)$_POST['parentID'];
  $selected = sanitize($_POST['selected']);
  $childQuery = $db->query("SELECT * FROM categories WHERE parent = '$parentID' ORDER BY categories");

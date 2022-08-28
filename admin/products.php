@@ -208,7 +208,7 @@ if($_POST){//-------------------4th if condition--------------
      <input type="text" name="title" class="form-control" id="title" value="<?=$title;?>" />
    </div>
   <div class="form-group col-md-3" >
-    <label for="Prod_barcode">Model No. :</label>
+    <label for="Prod_barcode">Barcode :</label>
     <input type="text" name="Prod_barcode" class="form-control" id="Prod_barcode"  value="<?=$Prod_barcode;?>" />
   </div>
 

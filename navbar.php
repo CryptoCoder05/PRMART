@@ -19,7 +19,7 @@ if($result){
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="index.php" class="navbar-brand font-weight-bold" style="letter-spacing:2px;"><span style="color:white;">PRADESH</span><small>BAZAR</small></a>
+      <a href="index.php" class="navbar-brand font-weight-bold" style="letter-spacing:2px;"><span style="color:white;">PRMART</a>
 
     </div>
     <div class="navbar-collapse collapse" >

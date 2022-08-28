@@ -1,11 +1,11 @@
 <!--==========================================================Main footer-------------------------------------------------------->
 <div class="clearfix"></div>
-<!--<footer class="text-center" id="footer">&copy; Copyright 2018-2020 seller</footer>-->
+<!--<footer class="text-center" id="footer">&copy; Copyright 2018-2020 prmart</footer>-->
 <script>
 function detailsmodal(id) {
   var data = {"id" : id};
   jQuery.ajax({
-    url : '/seller/details_model.php',
+    url : '/prmart/details_model.php',
     method : "post",
     data : data,
     success : function(data){
@@ -21,7 +21,7 @@ function detailsmodal(id) {
 function update_cart(mode,edit_id,edit_size){
   var data = {"mode" : mode, "edit_id" : edit_id, "edit_size" : edit_size};
   jQuery.ajax({
-   url : '/seller/admin/parsers/update_cart.php',
+   url : '/prmart/admin/parsers/update_cart.php',
     method : "post",
     data : data,
     success : function(){location.reload();},

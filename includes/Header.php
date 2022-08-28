@@ -6,7 +6,7 @@
     <meta name="description" content="e-commerce">
     <meta name="author" content="Anirudh singh">
 
-  <title>PadeshBazar</title>
+  <title>PRMART</title>
   <!-- Start WOWSlider.com HEAD section -->
   <link rel="stylesheet" type="text/css" href="engine1/style.css" />
   <script type="text/javascript" src="engine1/jquery.js"></script>

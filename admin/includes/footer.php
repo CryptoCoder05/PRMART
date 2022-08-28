@@ -1,5 +1,5 @@
 <div class="clearfix"></div>
-<!--<footer class="text-center" id="footer">&copy; Copyright 2018-2020 seller.</footer>-->
+<!--<footer class="text-center" id="footer">&copy; Copyright 2018-2020 prmart.</footer>-->
 <!--Barcode scan--->
 <script>
  $(document).ready(function(){
@@ -84,7 +84,7 @@ function update_quantity(qty_box){
   // unique id of this product
   var id = $(qty_box).parent().parent().attr("id");
   jQuery.ajax({
-    url     : '/seller/admin/parsers/update_qty.php',
+    url     : '/prmart/admin/parsers/update_qty.php',
     method  : "post",
     data    : {edit_id : id, edit_quntity : new_qty},
     success : function (data){
@@ -100,7 +100,7 @@ function update_discount(dis_box){
   var new_dis = dis_box.value;
   var id = $(dis_box).parent().parent().attr("id");
   jQuery.ajax({
-    url     : '/seller/admin/parsers/update_discount.php',
+    url     : '/prmart/admin/parsers/update_discount.php',
     method  : "post",
     data    : {edit_id : id, edit_dis : new_dis},
     success : function (data){
