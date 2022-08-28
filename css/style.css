@@ -1,0 +1,317 @@
+@page{
+  size:auto;
+  margin: 10px;
+}
+/*----------print receipt------*/
+#center{
+  margin-left: auto;
+  margin-right: auto;
+  width:80mm;
+  height: auto;
+}
+
+
+#center #div2 span{
+  font-size:10px;
+}
+
+#center table{
+  margin-left: auto;
+  margin-right: auto;
+  width:80mm;
+  height: auto;
+}
+
+#div3 table td{
+  font-size:12px;
+}
+
+#div3 table th{
+  font-size:13px;
+}
+
+#div4 p{
+  font-size: 10px;
+}
+
+
+
+
+
+/*----------login form------*/
+#login-form{
+  display: block;
+  margin: 5px auto;
+  width: 40%;
+}
+
+#login-form button{
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  border: none;
+  cursor: pointer;
+
+}
+/*------contact form----*/
+#success_message{ display: none;}
+
+#mainbody{
+   padding-top: 50px;
+}
+
+#navbar{
+  background-color: black;
+}
+
+#text{
+  background-color: #88910d;
+  color: #FFFFFF;
+}
+
+#navbar ul li a{
+  color: #FFFFFF;
+}
+
+.navbar-nav li .dropdown-menu{
+    background-color: black;
+}
+
+.dropdown-item{
+  color: #ffff;
+}
+#background-image{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  height: 640px;
+  background-image: url(../img/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+#image-1{
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  background-image: url(../img/images/pic3.jpg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: auto 200px;
+  top: -100px;
+  left: -25px;
+}
+
+#image-2{
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  margin-left: -100px;
+  background-image: url(../img/images/cart.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: auto;
+  top: 8%;
+  margin-top: 0px;
+}
+
+#images{
+  height: 250px;
+}
+
+#quantity{
+  margin-left: -16px;
+}
+
+#quntity-label{
+  margin-left: -16px;
+}
+fotorama__wrap{
+  width: 90%;
+  margin: 15px auto;
+}
+
+.table-auto{
+  width: auto;
+  margin: 0 auto;
+}
+
+.saved-image{
+  text-align: center;
+}
+
+.saved-image img{
+  width: 150px;
+  height: 150px;
+}
+
+#login-form{
+  width: 50%;
+  height: 60%;
+  border: 2px solid #000;
+  border-radius: 15px;
+  box-shadow: : 7px 7px 15px rgba(0,0,0,0,6);
+  margin: 7% auto;
+  padding: 15px;
+  background-color: #fff;
+}
+
+#partial-background-image{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  height: 200px;
+  background-image: url(../img/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.totals-table-header th{
+
+}
+
+#cart_widget td, #recent_widget{
+  font-size: 12px;
+}
+
+input.price-range{
+  width: 55px;
+}
+/*---sidebar--*/
+#sidebar-wrapper{
+  z-index: 1;
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  overflow-y: hidden;
+  background: #2C3E50;
+}
+
+/*---Main content--*/
+#page-content-wrapper{
+  width: auto;
+  position: absolute;
+  margin-left: 200px;
+}
+
+/*---Change the width of the sidebar to display it--*/
+#wrapper.menuDisplayed #sidebar-wrapper{
+  width: 250px;
+}
+
+#wrapper.menuDisplayed #page-content-wrapper{
+  padding-left: 250px;
+}
+
+/*---sidebar styling--*/
+.sidebar-nav{
+  padding: 0;
+  list-style: none;
+}
+.sidebar-nav li{
+  text-indent: 20px;
+  line-height: 40px;
+}
+.sidebar-nav li a{
+  display: block;
+  text-decoration: none;
+  color: #ddd;
+}
+.sidebar-nav li a:hover{
+  background: #16A085;
+}
+
+
+
+/*----cash button---*/
+
+
+a[name="casPay"] img{
+  position: relative;
+  width: 100%;
+  height: 65px;
+  padding: 5px;
+  transition: all 1s ease-in;
+  overflow: hidden;
+}
+
+a[name="casPay"]:hover img{
+  transform: scale(1.03);
+  transition: all 0.5s ease-in;
+  filter: brightness(0.6);
+}
+
+/* card box ---*/
+
+
+.box-1{
+  height: 23%;
+  width: auto;
+  background-color: #007bff;
+  padding: 5px;
+  overflow: hidden;
+}
+.box-2{
+  height: 23%;
+  width: auto;
+  background-color: #17a2b8;
+  padding: 5px;
+  overflow: hidden;
+}
+.box-3{
+  height: 23%;
+  width: auto;
+  background-color: #dc3545;
+  padding: 5px;
+  overflow: hidden;
+}
+.box-4{
+  height: 23%;
+  width: auto;
+  background-color: #28a745;
+  padding: 5px;
+  overflow: hidden;
+}
+.box-5{
+  height: 8%;
+  width: auto;
+  background-color: #17a2b8;
+  padding: 5px;
+  overflow: hidden;
+}
+
+#txt{
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+
+#Input, #Total, #output{
+ height: 50px;
+ font-size: 24px;
+}
+/* Sticky footer check_out
+-------------------------------------------------- */
+
+#right_side{
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding: 0px;
+  height: 100vh;
+  position: fixed;
+  top:50px;
+  right: 0px;
+}
+
+#left_side_bottom {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  height: auto;
+}
